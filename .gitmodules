@@ -1,0 +1,3 @@
+[submodule "edgecase_client/submodules/edgecase_article"]
+	path = edgecase_client/submodules/edgecase_article
+	url = git@github.com:sj-piano/edgecase_article.git
