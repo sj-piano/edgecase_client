@@ -7,17 +7,17 @@
 
 [step 1: Content]
 
-python3 edgecase_client/submodules/edgecase_article/cli.py --task verify --logLevel info --verifyContent --articlePath new_articles/article.txt
+python3 edgecase_client/submodules/edgecase_article/cli.py --task verify --logLevel info --verifyContent --articleFile new_articles/article.txt
 
 
 [step 2: Filename]
 
-python3 edgecase_client/submodules/edgecase_article/cli.py --task verify --logLevel info --verifyContent --verifyFileName --articlePath new_articles/2021-05-13_stjohn_piano_using_a_few_random_words_to_store_bitcoin_2.txt
+python3 edgecase_client/submodules/edgecase_article/cli.py --task verify --logLevel info --verifyContent --verifyFileName --articleFile new_articles/2021-05-13_stjohn_piano_using_a_few_random_words_to_store_bitcoin_2.txt
 
 
 [step 3: Assets]
 
-python3 edgecase_client/submodules/edgecase_article/cli.py --task=verify --logLevel=info --verifyContent --verifyFileName --verifyAssets --articlePath=new_articles/2021-05-13_stjohn_piano_using_a_few_random_words_to_store_bitcoin_2.txt
+python3 edgecase_client/submodules/edgecase_article/cli.py --task=verify --logLevel=info --verifyContent --verifyFileName --verifyAssets --articleFile=new_articles/2021-05-13_stjohn_piano_using_a_few_random_words_to_store_bitcoin_2.txt
 
 
 
