@@ -1,6 +1,32 @@
 
 
 
+hydra && cd edgecase_client
+
+
+python3 cli.py --task listDrafts
+
+
+python3 cli.py --task deleteDraft --name the_rise_of_the_american_caesar
+
+
+python3 cli.py --task uploadDraft
+
+
+python3 cli.py --task uploadDraft --articleFile drafts/article.txt
+
+
+python3 cli.py --task signDraft --articleFile drafts/article.txt
+
+
+python3 cli.py --task uploadDraft --articleFile drafts/smart_contract.txt
+
+
+python3 cli.py --task signDraft --articleFile drafts/smart_contract.txt
+
+
+
+
 
 ===== Analyse new article
 
@@ -18,9 +44,6 @@ python3 cli_article.py --task verify --logLevel info --verifyContent --verifyFil
 [step 3: Assets]
 
 python3 cli_article.py --task=verify --logLevel=info --verifyContent --verifyFileName --verifyAssets --articleFile=new_articles/2021-05-13_stjohn_piano_using_a_few_random_words_to_store_bitcoin_2.txt
-
-
-
 
 
 
