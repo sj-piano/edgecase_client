@@ -196,21 +196,23 @@ def main():
 
   # Load config, validate it, and add its values to the argument namespace.
   config_file = 'config.ini'
-  if isfile(config_file):
-    config = configparser.ConfigParser()
-    config.read_file(open(config_file))
-    # Check for expected config.
-    expected_sections = 'user'.split()
-    for section in expected_sections:
-      if not config.has_section(section):
-        raise KeyError
-    user_section = config['user']
-    expected_user_keys = 'author_name author_key_name long_user_id'.split()
-    for user_key in expected_user_keys:
-      if not config.has_option(section='user', option=user_key):
-        raise KeyError
-      value = config.get('user', user_key)
-      setattr(a, user_key, value)
+  if not isfile(config_file):
+    msg = "File not found at: {}".format(config_file)
+    raise FileNotFoundError(msg)
+  config = configparser.ConfigParser()
+  config.read_file(open(config_file))
+  # Check for expected config.
+  expected_sections = 'user'.split()
+  for section in expected_sections:
+    if not config.has_section(section):
+      raise KeyError
+  user_section = config['user']
+  expected_user_keys = 'author_name author_key_name long_user_id'.split()
+  for user_key in expected_user_keys:
+    if not config.has_option(section='user', option=user_key):
+      raise KeyError
+    value = config.get('user', user_key)
+    setattr(a, user_key, value)
 
   # Setup
   setup(
