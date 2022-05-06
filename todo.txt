@@ -2,6 +2,11 @@
 
 
 
+Be able to switch domains with a cli option.
+
+
+
+
 load config.
 - raise error if required config does not exist. DONE
 - allow user to pass each argument manually if desired.

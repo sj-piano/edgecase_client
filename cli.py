@@ -46,7 +46,7 @@ deb = logger.debug
 # Settings
 time_to_wait = 3  # seconds
 edgecase_public_key_file_name = 'edgecase_datafeed_2_public_key.txt'
-domain = 'edgecase.pro'
+domain = 'edgecase.net'
 
 
 
