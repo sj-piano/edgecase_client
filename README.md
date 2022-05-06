@@ -28,6 +28,13 @@ It allows a user to:
 
 
 
+### Notes
+
+
+Python 2 is only used to run an additional SHA256 implementation, as a double-check for asset SHA256 hashes.
+
+
+
 ### Installation
 
 ```
@@ -63,13 +70,6 @@ You need to have your Edgecase-registered keypair in a `keys` directory, ready t
 Example:
 - `stjohn_piano_2_public_key.txt`  
 - `stjohn_piano_2_private_key.txt`  
-
-
-
-### Notes
-
-
-Python 2 is only used to run an additional SHA256 implementation, as a double-check for asset SHA256 hashes.
 
 
 
