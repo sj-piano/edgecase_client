@@ -1,3 +1,6 @@
+# edgecase_client
+config.ini
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
