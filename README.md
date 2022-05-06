@@ -114,7 +114,8 @@ python3 cli.py --task signDraft --publicKeyDir=../keys/public_keys --privateKeyD
 
 
 Notes:  
-- The default outputDir is `signed_articles`, so if you choose this output directory, this argument can be omitted.  
+- The default outputDir is `signed_articles`, so if you choose this output directory, this argument can be omitted.
+```
 
 
 
