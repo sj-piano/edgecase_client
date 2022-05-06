@@ -1,5 +1,6 @@
 # edgecase_client
 config.ini
+cli_article.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
