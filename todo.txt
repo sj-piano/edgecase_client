@@ -1,0 +1,37 @@
+
+
+
+
+load config.
+- raise error if required config does not exist. DONE
+- allow user to pass each argument manually if desired.
+- validate values ? or at least that the values are of a particular length i.e. they're not empty values ?
+
+
+
+
+wrap assets
+- double-check that they were uploaded correctly ?
+-- get their metadata and check it.
+
+
+
+
+
+
+### DONE
+
+
+
+- listDrafts DONE
+- deleteDraft DONE
+- uploadDraft DONE
+-- validate draft - DONE
+-- wrap draft - DONE
+--- load the public key corresponding to the author key name. - DONE
+-- upload draft - DONE
+
+
+
+
+
