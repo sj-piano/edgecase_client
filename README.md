@@ -71,7 +71,7 @@ Example:
 - `stjohn_piano_2_public_key.txt`  
 - `stjohn_piano_2_private_key.txt`  
 
-Note: Typically, you'll use a secondary key (e.g. `stjohn_piano_2`) to interact with an Edgecase node and sign articles. The author_name within the article match the name of the secondary key i.e. in the top of the article there will be a line like this:  
+Note: Typically, you'll use a secondary key (e.g. `stjohn_piano_2`) to interact with an Edgecase node and sign articles. The author_name within the article must match the name of the secondary key i.e. in the top of the article there will be a line like this:  
 ```
 <author_name>stjohn_piano_2</author_name>
 ```
