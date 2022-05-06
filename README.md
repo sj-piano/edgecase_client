@@ -111,11 +111,11 @@ python3 cli.py --task deleteDraft --name smart_contract_deployment
 
 ```
 python3 cli.py --task signDraft --publicKeyDir=../keys/public_keys --privateKeyDir=../keys/private_keys --articleFile drafts/smart_contract_deployment.txt --outputDir='signed_articles'
-
+```
 
 Notes:  
 - The default outputDir is `signed_articles`, so if you choose this output directory, this argument can be omitted.
-```
+
 
 
 
