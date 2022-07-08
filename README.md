@@ -14,8 +14,6 @@ It allows a user to:
 
 - Python 3.x (developed with 3.5.2).
 
-- Python 2.x (developed with 2.7.12).
-
 - Pytest 6.x (developed with 6.1.2).
 
 - GPG 1.x, preferably 1.4.x (developed with 1.4.20).  
@@ -25,13 +23,6 @@ It allows a user to:
 -- colorlog (developed with 4.6.2). Required for colorised log output.
 
 - The `shasum` tool. To produce SHA256 hashes, this tool uses the shell command `shasum -a 256 <filepath>`.
-
-
-
-### Notes
-
-
-Python 2 is only used to run an additional SHA256 implementation, as a double-check for asset SHA256 hashes.
 
 
 
